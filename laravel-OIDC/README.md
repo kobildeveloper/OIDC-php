@@ -1,6 +1,3 @@
-<p align="center"><img src="https://www.kobil.com/download/presales/mIDProvider/logo.png" width="200"></p>
-
-
 # mIDentity One OpenId Connect Laravel PHP Example
 This is a PHP Laravel app that has been modified to support OpenID Connect Authorization Code flow via mIDentity One.
 
