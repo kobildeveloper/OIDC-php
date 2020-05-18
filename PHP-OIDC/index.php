@@ -23,7 +23,7 @@ include('function.php');
 					<img src="images/logo.png" alt="mIDentity One"/>
 				</div>
                 <div class="card-title">mIDentity One</div>
-				<h4>Plain PHP - Implicit flow authentication</h4>
+				<h4>Plain PHP - Authorization flow authentication</h4>
                 <div class="card-body">
                     <div class="btnbox">
 						<?php if(isset($_SESSION['user_info'])){ ?>
