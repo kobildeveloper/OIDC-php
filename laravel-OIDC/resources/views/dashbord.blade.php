@@ -19,7 +19,7 @@
 					<img src="images/logo.png" alt="mIDentity One"/>
 				</div>
                 <div class="card-title">mIDentity One</div>
-				<h4>PHP Laravel - Implicit flow authentication</h4>
+				<h4>PHP Laravel - Authorization flow authentication</h4>
                 <div class="card-body">
                     <div class="btnbox">						 
 						<a  class="button" href="http://127.0.0.1:8000/logout">Logout</a>						 
