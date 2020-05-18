@@ -24,6 +24,7 @@ We are using Guzzle HTTP client <a href="https://laravel.com/docs/7.x/http-clien
 You can pull the source of this example and past in to in your [xampp/htdocs] directory.
 
 ## Setup 2.
+Rename your .env.example file to .env
 Got to [.env] change the ClientId, ClientSecret &amp; configuration.
 
 ```
