@@ -21,7 +21,7 @@
 					<img src="<?php echo asset('images/logo.png')?>" alt="mIDentity One"/>
 				</div>
                 <div class="card-title">mIDentity One</div>
-				<h4>Plain PHP - Implicit flow authentication</h4>
+				<h4>Plain PHP - Authorization flow authentication</h4>
                 <div class="card-body">
                     <div class="btnbox">
 						<a class="button" href="<?php echo config('app.UserAuthorizationUri') ?>?client_id=<?php echo config('app.ClientId') ?>&redirect_uri=http://127.0.0.1:8000/oidc/get/token&response_type=code&scope=<?php echo config('app.Scope') ?>">Login</a>
