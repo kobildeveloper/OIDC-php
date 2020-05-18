@@ -52,7 +52,7 @@ Start laravel development server using following command
 ```
 php artisan serve
 ```
-You Got responce like "Laravel development server started: http://127.0.0.1:8000"
+You got responce like "Laravel development server started: http://127.0.0.1:8000"
 
 your application will be run in http://127.0.0.1:8000
 
