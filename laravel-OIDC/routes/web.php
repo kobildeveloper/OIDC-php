@@ -10,20 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-/* Route::get('/Callback', function () { */
-	/* //echo '===='. dd(config('global.pagination_records'));
-	echo '===='.config('app.ClientId');
-	echo '===='.config('app.currency'); */
-		/* return view('welcome');
-}); */
 Route::get('/', 'OidcController@index')->name('openid.dashbord');
 Route::get('/dashbord', 'OidcController@dashbord')->name('openid.dashbord');
 Route::get('/oidc/get/token', 'OidcController@OidcGetToken')->name('openid.login');
 Route::get('/logout', 'OidcController@logOut')->name('openid.login');
-//Route::get('/callback', 'OidcController@Callback')->name('openid.callback');
-
-
-/*  Route::get('/oidc/login', function () { 
-	 
-}); */
