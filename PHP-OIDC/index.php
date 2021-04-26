@@ -5,7 +5,7 @@ include('function.php');
 <html lang="en">
     <head>
         <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
-        <title>mIDentity One</title>
+        <title>mIDentity Box</title>
 		<meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="viewport" content="user-scalable=no,initial-scale=1.0,maximum-scale=1.0" />
@@ -20,9 +20,9 @@ include('function.php');
         <div class="main">
             <div class="card">
 				<div class="logo">
-					<img src="images/logo.png" alt="mIDentity One"/>
+					<img src="images/logo.png" alt="mIDentity Box"/>
 				</div>
-                <div class="card-title">mIDentity One</div>
+                <div class="card-title">mIDentity Box</div>
 				<h4>Plain PHP - Authorization flow authentication</h4>
                 <div class="card-body">
                     <div class="btnbox">
