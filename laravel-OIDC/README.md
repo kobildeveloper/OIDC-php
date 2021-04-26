@@ -1,10 +1,10 @@
-# mIDentity One OpenId Connect Laravel PHP Example
-This is a PHP Laravel app that has been modified to support OpenID Connect Authorization Code flow via mIDentity One.
+# mIDentity Box OpenId Connect Laravel PHP Example
+This is a PHP Laravel app that has been modified to support OpenID Connect Authorization Code flow via mIDentity Box.
 
 ## Prerequisites
 This example requires [XAMPP/PHP 7.0+].
 
-You will also need mIDentity One account. If you don't have one you can [create a free account here](https://midentity.one/selfenrollment).
+You will also need mIDentity Box account. If you don't have one you can [create a free account here](https://midentitybox.com/selfenrollment).
 
 Most importantly you will need to create an OpenId Connect app under mIDentity Admin portal. [You can read more about how to do that after login].
 
@@ -17,8 +17,8 @@ You can pull the source directory of this example and paste it into your [xampp/
 Rename [.env.example] file to [.env]. Navigate to [.env] file and change ClientId, ClientSecret &amp; configuration.
 
 ```
-OIDC_ClientId=your-midentity-one-oidc-app-client-id
-OIDC_ClientSecret=your-midentity-one-oidc-app-client-secret
+OIDC_ClientId=your-midentity-box-oidc-app-client-id
+OIDC_ClientSecret=your-midentity-box-oidc-app-client-secret
 OIDC_AccessTokenUri=https://{partnerid}.{hostname}/digitanium/v1/login
 OIDC_LogoutUrl=https://{partnerid}.{hostname}/digitanium/v1/logout
 OIDC_Scope=openid,offline_access,profile,email,address,phone,roles,web-origins
@@ -26,9 +26,9 @@ OIDC_UserInfoUri=https://{partnerid}.{hostname}/digitanium/v1/userinfo
 OIDC_UserAuthorizationUri=https://{partnerid}.{hostname}/digitanium/v1/auth
 OIDC_GrantTypes=authorization_code
 ```
-Make sure you replace `your-midentity-one-oidc-app-client-id` and `your-midentity-one-oidc-app-client-secret` with the values provided when you created your OpenID Connect app via the midentity one portal.
+Make sure you replace `your-midentity-box-oidc-app-client-id` and `your-midentity-box-oidc-app-client-secret` with the values provided when you created your OpenID Connect app via the midentity box portal.
 
-Change `{partnerid}.{hostname}` to match the sub-domain by mIDentity One portal.
+Change `{partnerid}.{hostname}` to match the sub-domain by mIDentity Box portal.
 
 Go to your Laravel directory, update composer and clear cache using following commands:
 ```
