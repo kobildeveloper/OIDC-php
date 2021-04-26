@@ -1,8 +1,8 @@
 <?php 
 session_start();
 
-define("ClientId", "your-midentity-one-oidc-app-client-id");
-define("ClientSecret", "your-midentity-one-oidc-app-client-secret");
+define("ClientId", "your-midentity-box-oidc-app-client-id");
+define("ClientSecret", "your-midentity-box-oidc-app-client-secret");
 define("AccessTokenUri", "https://{partnerid}.{hostname}/digitanium/v1/login");
 define("LogoutUrl", "https://{partnerid}.{hostname}/digitanium/v1/logout");
 define("Scope", "openid,offline_access,profile,email,address,phone,roles,web-origins");
